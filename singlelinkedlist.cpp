@@ -73,3 +73,7 @@ bool searchnode(int nim, node* current,node* previous){
     }
     
 }
+
+bool deletenode (int nim){
+    
+}
