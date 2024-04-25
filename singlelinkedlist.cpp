@@ -86,3 +86,6 @@ bool deletenode (int nim){
     return true;
 }
 
+bool listempty(){
+    
+}
