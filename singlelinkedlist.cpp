@@ -49,6 +49,9 @@ void addnode(){
     }
     nodebaru->next = current;
     previous->next = nodebaru;
+    
+}
 
+bool searchnode(int nim, node* current,node* previous){
     
 }
