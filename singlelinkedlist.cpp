@@ -111,5 +111,24 @@ void traverse(){
 }
 
 void searchdata(){
-    
+    if (listempty()){
+        cout<< "List Kosong" << endl;
+        system ( "pause");
+        system ("cls");
+        return;
+    }
+    else {
+        int nim;
+        cout<< "Masukkan NIM : ";
+        cin >> nim;
+        node* currentnode = START;
+        while ( currentnode != NULL ){
+            if( currentnode->noMhs == nim){
+                cout << "NIM : " << currentnode->noMhs << ", Nama : " << currentnode->name << endl;
+                return;
+            }
+            currentnode = currentnode->next;
+        }
+        cout << "Data tidak ditemukan "<< endl;
+    }
 }
