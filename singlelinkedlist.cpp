@@ -87,5 +87,9 @@ bool deletenode (int nim){
 }
 
 bool listempty(){
+    if( START == NULL)
+        return true;
+    else
+        return false;
     
 }
