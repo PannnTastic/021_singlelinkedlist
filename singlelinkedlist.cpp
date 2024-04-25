@@ -95,5 +95,18 @@ bool listempty(){
 }
 
 void traverse(){
-    
+    if (listempty()){
+        cout<< "List Kosong" << endl;
+        system ( "pause");
+        system ("cls");
+        return;
+    }
+    else {
+        node* currentnode = START;
+        while ( currentnode != NULL){
+            cout << "NIM : " << currentnode->noMhs << ", Nama : " << currentnode->name << endl;
+            currentnode = currentnode->next;
+        }
+    }
 }
+
