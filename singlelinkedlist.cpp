@@ -93,3 +93,7 @@ bool listempty(){
         return false;
     
 }
+
+void traverse(){
+    
+}
