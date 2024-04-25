@@ -11,5 +11,7 @@ struct  node
 node* START = NULL;
 
 void addnode(){
-    
+    int nim;
+    string nama;
+    node* nodebaru = new node();
 }
